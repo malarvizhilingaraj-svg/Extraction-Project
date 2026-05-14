@@ -8,6 +8,7 @@ def Pancard_extractor(file):
     return extract 
 
 if __name__=="__main__":
+    
     result = Pancard_extractor("loan_applications_raw.txt")
     print(result)
     
